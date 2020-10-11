@@ -1,5 +1,8 @@
 body {
     background-color: #0d462c;
+}
+
+.card_container{
     font-family: Oxygen, sans-serif;
     display: grid;
     margin: 2rem;
