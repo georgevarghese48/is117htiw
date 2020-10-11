@@ -1,4 +1,14 @@
 body {
     background-color: #0d462c;
+    font-family: Oxygen, sans-serif;
+    display: grid;
+    margin: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    grid-gap: 2rem;
+    justify-content: center;
 }
 
+.card {
+    overflow: hidden;
+    box-shadow: 0px 2px 20px grey;
+}
