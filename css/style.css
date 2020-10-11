@@ -14,4 +14,35 @@ body {
 .card {
     overflow: hidden;
     box-shadow: 0px 2px 20px grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
 }
+
+.card img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_title {
+    padding: 1rem;
+}
+
+.card_description {
+    padding: 1rem;
+}
+
+.card button {
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid transparent;
+
+}
+
