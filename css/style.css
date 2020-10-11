@@ -30,6 +30,7 @@ body {
 
 .card_title {
     padding: 1rem;
+    text-align: center;
 }
 
 .card_description {
@@ -43,6 +44,18 @@ body {
     font-size: 1rem;
     margin: 1rem;
     border: 2px solid transparent;
-
+    color: #0d6efd;
+    background: transparent;
+    border-color: #0d6efd;
+    transition: background 200ms ease-in, color 200ms ease-in;
 }
 
+
+.card :hover{
+    transform: scale(1.02);
+}
+
+.card .card_button :hover{
+    background: #0d6efd;
+    color: white;
+}
