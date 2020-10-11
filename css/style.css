@@ -51,11 +51,11 @@ body {
 }
 
 
-.card :hover{
+.card:hover {
     transform: scale(1.02);
 }
 
-.card .card_button :hover{
+.card_button:hover {
     background: #0d6efd;
     color: white;
 }
