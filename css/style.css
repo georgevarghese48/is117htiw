@@ -68,3 +68,12 @@ h1 {
     background: #0047AB;
     color: white;
 }
+
+footer {
+    left: 0;
+    width: 100%;
+    background-color:#404040;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
